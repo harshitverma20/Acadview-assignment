@@ -1,0 +1,18 @@
+Q-1) print helloworld in java
+sol-
+
+class Helloworld{
+  public static void main(String s[]){
+    System.out.println("Hello world!!");
+  }
+}
+
+
+Q-2) print your name in java
+sol-
+
+class PrName{
+	public static void main(String s[]){
+		System.out.println("Harshit Verma");
+	}
+}	
