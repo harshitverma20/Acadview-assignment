@@ -20,5 +20,15 @@ class StrOccurence{
 		}
 		System.out.println(count);
 		
+		// Or
+		
+		/*
+			String s1 = "akajsfsffaadfs fskfs";
+			String s2 = "fs";
+			boolean check = s1.contains(s2);
+			if(check)
+				System.out.println("String contained");
+		*/
+		
 	}
 }
