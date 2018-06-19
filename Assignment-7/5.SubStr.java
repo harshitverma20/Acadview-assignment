@@ -1,18 +1,24 @@
-class SubStr{
-	public static void main(String arg[]){
+class StrOccurence{
+	public static void main(String s[]){
+		Scanner in = new Scanner(System.in);
 		
-		String s = "xyz";
-		char ch[] = s.toCharArray();
+		System.out.print("Enter string 1 : ");
+		String s1 = in.nextLine();
+		
+		System.out.print("Enter string 2 : ");
+		String s2 = in.nextLine();
+		
+		int count = 0;
+		int len=s2.length();
+		
 		String substr;
-       
-	   System.out.println("\n All Substrings are : ");
-	   
-		for(int i=0 ;i<ch.length ; i++){
-			for(int j=i+1 ; j<=ch.length ;j++){
-				substr = s.substring(i, j);
-				System.out.println(substr);
-           }
-       }
-
+		for(int i=0 ; i<=s1.length()-len ; i++){
+			substr = s1.substring(i,i+len);
+			if(s2.equals(substr))
+				count++;
+				
+		}
+		System.out.println(count);
+		
 	}
 }
