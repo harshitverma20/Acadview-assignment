@@ -21,4 +21,12 @@ class RmVovels{
         for(int i=0 ;i<n ;i++)
         System.out.print(ch1[i]);
 	}
+	
+	// OR
+	
+	/*
+		String s1 = "Acadview chandigarh!!";
+		String s2 = s1.replaceAll("[aeiouAEIOU]" , "");
+		System.out.println(s2);
+	*/
 }
